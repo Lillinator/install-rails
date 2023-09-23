@@ -55,7 +55,7 @@ log_info "Installing Redis ..."
   if [ ! -f "$FILE" ]; then
     sudo bash -c "cat > $FILE" <<EOF
 [Unit]
-Description=redis in-memory data store
+Description=Redis In-Memory Data Store
 After=network.target
 
 [Service]
